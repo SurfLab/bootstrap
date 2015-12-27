@@ -1,4 +1,4 @@
-angular.module('ui.surflab.typeahead', ['ui.bootstrap.debounce', 'ui.bootstrap.position'])
+angular.module('surflab.typeahead', ['ui.bootstrap.debounce', 'ui.bootstrap.position'])
 
 /**
  * A helper service that can parse typeahead's syntax (string provided by users)
