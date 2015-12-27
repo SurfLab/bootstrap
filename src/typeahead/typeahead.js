@@ -403,9 +403,12 @@ angular.module('ui.bootstrap.typeahead', ['ui.bootstrap.debounce', 'ui.bootstrap
           break;
       }
     });
+    
+    console.log('this is my version');
 
     element.bind('focus', function () {
       hasFocus = true;
+      console.log('trying to focus on this');
       if (minLength === 0 && !modelCtrl.$viewValue) {
         getMatchesAsync(modelCtrl.$viewValue);
       }
